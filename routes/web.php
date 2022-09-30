@@ -17,9 +17,7 @@ Route::get('/test/new', function () {
 
     $username = 'Test Username';
 
-    return view('test', [
-        'username' => $username,
-    ]);
+    return view('test');
 });
 
 Route::get('/', function () {
